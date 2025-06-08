@@ -1,0 +1,25 @@
+* {
+    font-family: Urbanist, Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+nav {
+    background-color: #ffffff;
+    color: white;
+    padding: 0px 0px;
+    text-align: right;
+}
+
+#nav-links {
+    color: #3A3772;
+    text-decoration: none;
+    
+}
+
+p {
+    color: #3A3772;
+    font-weight: 300;
+}
