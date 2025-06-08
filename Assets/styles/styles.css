@@ -3,23 +3,77 @@
 }
 
 
-
-
-
 nav {
     background-color: #ffffff;
-    color: white;
     padding: 0px 0px;
-    text-align: right;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
 }
 
-#nav-links {
+.nav-links a {
     color: #3A3772;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.nav-links a:hover {
+    color: #D43A8E;
     text-decoration: none;
     
 }
 
+.logo {
+    max-width: 70px;
+}
+
+
 p {
     color: #3A3772;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h1 {
+    color: #3A3772;
+    font-size: 40px;
+}
+
+.button {
+    background-color: #FBCA47; 
+    border: none; 
+    color: #3A3772; 
+    padding: 15px 24px; 
+    text-align: center; 
+    text-decoration: none; 
+    border-radius: 100px;
+    font-weight: 700;
+}
+
+.button:hover {
+    background-color: #D43A8E; 
+    border: none; 
+    color: #ffffff;
+    padding: 15px 24px; 
+    text-align: center; 
+    text-decoration: none; 
+    border-radius: 100px;
+}
+
+.welcome-text {
+    background-color: #f0f0fa;
+    width: 50%;
+    padding: 10%;
+}
+
+header {
+    display: flex;
+}
+
+.banner-image {
+    max-width: 200px;
 }
