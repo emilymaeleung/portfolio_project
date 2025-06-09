@@ -13,14 +13,14 @@ nav {
 
 }
 
-.nav-links a {
+#nav-links a {
     color: #3A3772;
     text-decoration: none;
     padding: 10px;
     
 }
 
-.nav-links a:hover {
+#nav-links a:hover {
     color: #D43A8E;
     text-decoration: none;
     
@@ -64,7 +64,7 @@ h1 {
     border-radius: 100px;
 }
 
-.welcome-text {
+#welcome-text {
     background-color: #f0f0fa;
     width: 50%;
     padding-top: 13%;
