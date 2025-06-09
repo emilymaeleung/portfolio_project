@@ -10,7 +10,6 @@ nav {
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    padding: 1%
 
 }
 
@@ -29,6 +28,7 @@ nav {
 
 .logo {
     max-width: 70px;
+    padding: 1%;
 }
 
 
