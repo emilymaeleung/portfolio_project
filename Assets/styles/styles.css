@@ -17,6 +17,7 @@ nav {
     color: #3A3772;
     text-decoration: none;
     padding: 10px;
+    font-weight: 500;
     
 }
 
@@ -43,6 +44,13 @@ h1 {
     font-size: 40px;
 }
 
+h4 {
+    color: #3A3772;
+    font-size: 30px;
+    margin-top: 2%;
+    line-height: 0px;
+}
+
 .button {
     background-color: #FBCA47; 
     border: none; 
@@ -67,7 +75,7 @@ h1 {
 #welcome-text {
     background-color: #f0f0fa;
     width: 50%;
-    padding-top: 13%;
+    padding-top: 8%;
     padding-left: 5%;
 }
 
@@ -75,14 +83,44 @@ header {
     display: flex;
     width: 100%;
     align-items: stretch;
+    max-height: 500px;
 }
 
 .banner-image {
     width: 50%;
+    height: auto;
 }
 
 .projects {
     display: flex;
     align-items: center;
-    margin: 5%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+
+.project {
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+a {
+    color: #D43A8E;
+    font-weight: 800;
+}
+
+a:hover {
+    color: #3A3772;
+    font-weight: 800;
+}
+
+.top-heading {
+    color: #D43A8E;
+    text-transform: uppercase;
+    padding-bottom: 3%;
+    letter-spacing: 2px;
 }
