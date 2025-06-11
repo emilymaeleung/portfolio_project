@@ -78,7 +78,7 @@ h4 {
     background-color: #f0f0fa;
     width: 50%;
     padding-top: 8%;
-    padding-left: 20%;
+    padding-left: 15%;
 }
 
 header {
@@ -92,7 +92,7 @@ header {
     height: auto;
 }
 
-.projects {
+#projects {
     display: flex;
     align-items: center;
     margin-top: 3%;
@@ -126,7 +126,7 @@ a:hover {
     letter-spacing: 2px;
 }
 
-.about {
+#about {
     display: flex;
     background-color: #f0f0fa;
     align-items: center;
@@ -156,11 +156,41 @@ a:hover {
     text-align: left;
 }
 
-.form {
+form {
     background-color: #3A3772;
+    width: 80%;
+    padding-left: 5%;
+}
+
+label {
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 3;
+}
+
+input {
+    height: 40px;
+    width: 820px;
+    border-radius: 5px;
+}
+
+#message {
+    margin-bottom: 3%;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#contact {
+    background-color: #3A3772;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    color: #ffffff;
+    display: flex;
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 3%;
-    padding-bottom: 3%;
     margin-top: 3%;
+}
+
+.formtitle {
+    width: 40%;
 }
